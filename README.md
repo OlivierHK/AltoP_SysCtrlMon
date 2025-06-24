@@ -1,5 +1,7 @@
 # AltoP_SysCtrlMon
+
 ##Summary
+
 A C#/.Net Application for controlling and monitoring the Alto System.
 
 The communication is using UART, and is between the host computer and the on-board Arduino.
@@ -15,6 +17,7 @@ The communication is using UART, and is between the host computer and the on-boa
 ![screenshot](https://github.com/user-attachments/assets/94f9f95a-acca-43c9-80a7-54678f94ba71)
 
 ##usage
+
 1. Press `refresh Port` to list all COM ports available.
 2. Select the COM port from the list where the on-board Arduino is connected, and select 500000 as Baud Rate.
 3. Press `Connect`.
