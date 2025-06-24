@@ -1,8 +1,8 @@
 # AltoP_SysCtrlMon
 
-## Summary
-
 A C#/.Net Application for controlling and monitoring the Alto System.
+
+## Summary
 
 The communication is using UART, and is between the host computer and the on-board Arduino.
 
