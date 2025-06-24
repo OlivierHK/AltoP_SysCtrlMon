@@ -1,6 +1,6 @@
 # AltoP_SysCtrlMon
 
-##Summary
+## Summary
 
 A C#/.Net Application for controlling and monitoring the Alto System.
 
@@ -16,7 +16,7 @@ The communication is using UART, and is between the host computer and the on-boa
 
 ![screenshot](https://github.com/user-attachments/assets/94f9f95a-acca-43c9-80a7-54678f94ba71)
 
-##usage
+## Usage
 
 1. Press `refresh Port` to list all COM ports available.
 2. Select the COM port from the list where the on-board Arduino is connected, and select 500000 as Baud Rate.
@@ -32,5 +32,5 @@ The communication is using UART, and is between the host computer and the on-boa
 12. Pressing `Disconnect` button will not stop or hang the board/FGPA. it just close the COM port and stop the data transfer between the Arduino and the Application. it can be reconnect at anytime without any side effect.
 13. de-asserting the `nPROGRAM_B_FPGA_x` will clear the FPGA's firmware. Re-asserting it will trigger the FPGA programming from its SPI's Flash. it takes ~30 second and is successfully done when `Done` signal go green.
 
-##Code & Project
+## Code & Project
 Please contact the author at olivier.faurie.hk@gmail.com for the C#/.NET project.
